@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Rush Frisby</Authors>
+    <Company>Rush Frisby</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Creates a proxy which logs exceptions to Exceptionless and optionally logs start/end method calls.</Description>
+    <PackageProjectUrl>https://github.com/rushfrisby/ExceptionlessProxy</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rushfrisby/ExceptionlessProxy</RepositoryUrl>
+    <PackageTags>exceptionless proxy</PackageTags>
+    <PackageLicenseUrl>https://github.com/rushfrisby/ExceptionlessProxy/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Exceptionless" Version="4.3.2012" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Reflection.DispatchProxy" Version="4.5.1" />
+  </ItemGroup>
+
+</Project>
